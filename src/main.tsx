@@ -5,7 +5,10 @@ import './index.css';
 
 import { routeTree } from './routeTree.gen';
 
-const router = createRouter({ routeTree });
+const router = createRouter({
+	routeTree,
+	basepath: '/login-form',
+});
 
 declare module '@tanstack/react-router' {
 	interface Register {

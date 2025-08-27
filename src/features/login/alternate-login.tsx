@@ -1,6 +1,6 @@
-import { Button } from '../../shared/ui';
-import Google from '../../assets/google-icon.svg?react';
 import Facebook from '../../assets/facebook-icon.svg?react';
+import Google from '../../assets/google-icon.svg?react';
+import { Button } from '../../shared/ui';
 
 const alternates = [
 	{ label: 'Continue with Google', icon: <Google /> },

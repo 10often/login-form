@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -13,7 +14,6 @@ import {
 	type LoginFieldValues,
 } from '../../entities/login';
 import { AlternateLogin, MockSettings } from '../../features/login';
-import clsx from 'clsx';
 
 interface Props {
 	authType: 'login' | 'signup';
